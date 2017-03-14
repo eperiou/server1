@@ -1,8 +1,50 @@
 {
 
-  "migration_id": 2017031315414704,
+  "migration_id": 2017031420314577,
 
   "models": {
+
+    "Crumb": {
+
+      "table": "crumbs",
+
+      "columns": [
+        {"name": "id", "type": "serial", "properties": {"nullable":false,"primary_key":true,"auto_increment":true}},
+        {"name": "Trail_Id", "type": "int", "properties": {}},
+        {"name": "Name", "type": "string", "properties": {}},
+        {"name": "Description", "type": "int", "properties": {}},
+        {"name": "Order_Number", "type": "int", "properties": {}},
+        {"name": "Location", "type": "string", "properties": {}},
+        {"name": "Text", "type": "text", "properties": {}},
+        {"name": "Image", "type": "string", "properties": {}},
+        {"name": "Video", "type": "string", "properties": {}},
+        {"name": "AR", "type": "string", "properties": {}},
+        {"name": "created_at", "type": "datetime", "properties": {}},
+        {"name": "updated_at", "type": "datetime", "properties": {}}
+      ]
+
+    },
+
+    "Crumbtrail": {
+
+      "table": "crumbtrails",
+
+      "columns": [
+        {"name": "id", "type": "serial", "properties": {"nullable":false,"primary_key":true,"auto_increment":true}},
+        {"name": "creator", "type": "int", "properties": {}},
+        {"name": "name", "type": "string", "properties": {}},
+        {"name": "Description", "type": "text", "properties": {}},
+        {"name": "Rating", "type": "int", "properties": {}},
+        {"name": "Type", "type": "string", "properties": {}},
+        {"name": "length", "type": "string", "properties": {}},
+        {"name": "Requires_money", "type": "string", "properties": {}},
+        {"name": "Start_Crumb", "type": "int", "properties": {}},
+        {"name": "End_Crumb", "type": "int", "properties": {}},
+        {"name": "created_at", "type": "datetime", "properties": {}},
+        {"name": "updated_at", "type": "datetime", "properties": {}}
+      ]
+
+    },
 
     "User": {
 
@@ -16,6 +58,7 @@
         {"name": "Current_trail", "type": "int", "properties": {}},
         {"name": "password", "type": "string", "properties": {}},
         {"name": "username", "type": "string", "properties": {}},
+        {"name": "Profile_picture", "type": "string", "properties": {}},
         {"name": "created_at", "type": "datetime", "properties": {}},
         {"name": "updated_at", "type": "datetime", "properties": {}}
       ]

@@ -26,6 +26,76 @@
          "password":"password3",
          "username": "testuser3"
        }
+     ],
+     "Crumbtrail": [
+       {
+         "creator":  1,
+         "name":  "test trail1",
+         "Description":  "text for test trail 1",
+         "Rating":  "3",
+         "Type":  "tour",
+         "length":  "2 miles",
+         "Requires_money":  "yes",
+         "Start_Crumb":  "1",
+         "End_Crumb":  "4"
+       },
+       {
+         "creator":  2 ,
+         "name":  "test trail2",
+         "Description":  "text for test trail 2",
+         "Rating":  "4",
+         "Type":  "adventure",
+         "length":  "26.3 miles",
+         "Requires_money":  "no",
+         "Start_Crumb":  "2",
+         "End_Crumb":  "7"
+       },
+       {
+         "creator":  3 ,
+         "name":  "test trail3",
+         "Description":  "text for test trail 3",
+         "Rating":  "3",
+         "Type":  "scavenger hunt",
+         "length":  "6 miles",
+         "Requires_money":  "no",
+         "Start_Crumb":  "3",
+         "End_Crumb":  "8"
+       }
+     ],
+     "Crumb": [
+       {
+         "Trail_Id":1,
+         "Name": "crumb1",
+         "Description": 1,
+         "Order_Number": 1,
+         "Location": "location 1",
+         "Text": "text for crumb number 1 ",
+         "Image": "https://static1.squarespace.com/static/54e8ba93e4b07c3f655b452e/t/56c2a04520c64707756f4267/1455596221531/",
+         "Video": "string",
+         "AR": "string"
+       },
+       {
+         "Trail_Id":1,
+         "Name": "crumb2",
+         "Description": 2,
+         "Order_Number": 2,
+         "Location": "location 2",
+         "Text": "text for crumb number 2 ",
+         "Image": "https://static1.squarespace.com/static/54e8ba93e4b07c3f655b452e/t/56c2a04520c64707756f4267/1455596221531/",
+         "Video": "string",
+         "AR": "string"
+       },
+       {
+         "Trail_Id":1,
+         "Name": "crumb3",
+         "Description": 3,
+         "Order_Number": 3,
+         "Location": "location 3",
+         "Text": "text for crumb number 3 ",
+         "Image": "https://static1.squarespace.com/static/54e8ba93e4b07c3f655b452e/t/56c2a04520c64707756f4267/1455596221531/",
+         "Video": "string",
+         "AR": "string"
+       }
      ]
   },
 
