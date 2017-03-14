@@ -1,0 +1,35 @@
+{
+
+  "development": {
+    "User":[
+          {
+           "email":"test1@email.com",
+           "points":10,
+           "Total_completed":1,
+           "Current_trail":1,
+           "password":"password1",
+           "username": "testuser1"
+         },
+         {
+          "email":"test2@email.com",
+          "points":20,
+          "Total_completed":2,
+          "Current_trail":2,
+          "password":"password2",
+          "username": "testuser2"
+        },
+        {
+         "email":"test3@email.com",
+         "points":30,
+         "Total_completed":3,
+         "Current_trail":3,
+         "password":"password3",
+         "username": "testuser3"
+       }
+     ]
+  },
+
+  "test": {},
+  "production": {}
+
+}

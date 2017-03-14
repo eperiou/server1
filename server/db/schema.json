@@ -1,0 +1,27 @@
+{
+
+  "migration_id": 2017031315414704,
+
+  "models": {
+
+    "User": {
+
+      "table": "users",
+
+      "columns": [
+        {"name": "id", "type": "serial", "properties": {"nullable":false,"primary_key":true,"auto_increment":true}},
+        {"name": "email", "type": "string", "properties": {"unique":true}},
+        {"name": "points", "type": "int", "properties": {}},
+        {"name": "Total_completed", "type": "int", "properties": {}},
+        {"name": "Current_trail", "type": "int", "properties": {}},
+        {"name": "password", "type": "string", "properties": {}},
+        {"name": "username", "type": "string", "properties": {}},
+        {"name": "created_at", "type": "datetime", "properties": {}},
+        {"name": "updated_at", "type": "datetime", "properties": {}}
+      ]
+
+    }
+
+  }
+
+}
