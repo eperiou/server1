@@ -8,6 +8,6 @@ class Crumb extends Nodal.Model {}
 
 Crumb.setDatabase(Nodal.require('db/main.js'));
 Crumb.setSchema(Nodal.my.Schema.models.Crumb);
-Crumb.joinsTo(Crumbtrail, { multiple: true });
+Crumb.joinsTo(Crumbtrail, { multiple: true, as: 'crumb' });
 // Crumb.joinedBy(Geofence, { multiple: false });
 module.exports = Crumb;

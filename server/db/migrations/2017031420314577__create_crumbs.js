@@ -1,4 +1,4 @@
-'use strict';
+// 'use strict';
 
 const Nodal = require('nodal');
 
@@ -12,7 +12,7 @@ class CreateCrumbs extends Nodal.Migration {
   up() {
     return [
       this.createTable('crumbs', [
-        { name: 'trail_Id', type: 'int' },
+        { name: 'crumbtrail_id', type: 'int' },
         { name: 'name', type: 'string' },
         { name: 'description', type: 'string' },
         { name: 'order_Number', type: 'int' },

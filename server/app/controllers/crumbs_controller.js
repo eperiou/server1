@@ -1,4 +1,4 @@
-'use strict';
+// 'use strict';
 
 const Nodal = require('nodal');
 
@@ -9,7 +9,26 @@ class CrumbsController extends Nodal.Controller {
     Crumb.query()
       .where(this.params.query)
       .end((err, models) => {
-        this.respond(err || models);
+        this.respond(err || models, [
+          'crumbtrail_id',
+          'name',
+          'description',
+          'order_Number',
+          'geoId',
+          'latitude',
+          'longitude',
+          'radius',
+          'notification_id',
+          'title',
+          'small_icon',
+          'open_app_on_click',
+          'vibration',
+          'data',
+          'text',
+          'image',
+          'video',
+          'aR',
+        ]);
       });
   }
   show() {

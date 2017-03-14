@@ -9,6 +9,7 @@ class CrumbtrailsController extends Nodal.Controller {
   index() {
     Crumbtrail.query()
       .where(this.params.query)
+      .join('crumb')
       .end((err, models) => {
         this.respond(err || models, [
           'id',
@@ -23,7 +24,24 @@ class CrumbtrailsController extends Nodal.Controller {
           'end_Crumb',
           'created_at',
           'updated_at',
-          'crumbs',
+          { crumb: ['crumbtrail_id',
+            'name',
+            'description',
+            'order_Number',
+            'geoId',
+            'latitude',
+            'longitude',
+            'radius',
+            'notification_id',
+            'title',
+            'small_icon',
+            'open_app_on_click',
+            'vibration',
+            'data',
+            'text',
+            'image',
+            'video',
+            'aR'] },
         ]);
       });
   }

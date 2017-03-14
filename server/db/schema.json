@@ -10,7 +10,7 @@
 
       "columns": [
         {"name": "id", "type": "serial", "properties": {"nullable":false,"primary_key":true,"auto_increment":true}},
-        {"name": "trail_Id", "type": "int", "properties": {}},
+        {"name": "crumbtrail_id", "type": "int", "properties": {}},
         {"name": "name", "type": "string", "properties": {}},
         {"name": "description", "type": "string", "properties": {}},
         {"name": "order_Number", "type": "int", "properties": {}},

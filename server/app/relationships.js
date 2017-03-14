@@ -12,5 +12,8 @@
   Comment.joinsTo(Post, {multiple: true});
 
 */
+const Crumb = Nodal.require('/app/models/crumb.js');
+const Crumbtrail = Nodal.require('/app/models/crumbtrail.js');
+Crumbtrail.joinedBy(Crumb, { multiple: true });
 
 module.exports = {}; // Don't need to export anything
