@@ -16,7 +16,7 @@ class CreateCrumbs extends Nodal.Migration {
         { name: 'name', type: 'string' },
         { name: 'description', type: 'string' },
         { name: 'order_Number', type: 'int' },
-        { name: 'location', type: 'string' },
+        { name: 'location', type: 'int' },
         { name: 'text', type: 'text' },
         { name: 'image', type: 'string' },
         { name: 'video', type: 'string' },

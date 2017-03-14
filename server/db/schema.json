@@ -14,7 +14,7 @@
         {"name": "name", "type": "string", "properties": {}},
         {"name": "description", "type": "string", "properties": {}},
         {"name": "order_Number", "type": "int", "properties": {}},
-        {"name": "location", "type": "string", "properties": {}},
+        {"name": "location", "type": "int", "properties": {}},
         {"name": "text", "type": "text", "properties": {}},
         {"name": "image", "type": "string", "properties": {}},
         {"name": "video", "type": "string", "properties": {}},
