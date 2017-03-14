@@ -14,13 +14,13 @@ class CreateCrumbtrails extends Nodal.Migration {
       this.createTable('crumbtrails', [
         { name: 'creator', type: 'int' },
         { name: 'name', type: 'string' },
-        { name: 'Description', type: 'text' },
-        { name: 'Rating', type: 'int' },
-        { name: 'Type', type: 'string' },
+        { name: 'description', type: 'text' },
+        { name: 'rating', type: 'int' },
+        { name: 'type', type: 'string' },
         { name: 'length', type: 'string' },
-        { name: 'Requires_money', type: 'string' },
-        { name: 'Start_Crumb', type: 'int' },
-        { name: 'End_Crumb', type: 'int' },
+        { name: 'requires_money', type: 'string' },
+        { name: 'start_Crumb', type: 'int' },
+        { name: 'end_Crumb', type: 'int' },
       ]),
     ];
   }

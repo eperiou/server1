@@ -9,9 +9,10 @@
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
-    "nodal": "0.13.2",
     "chai": "~3.5.0",
-    "mocha": "~2.4.5"
+    "mocha": "~2.4.5",
+    "nodal": "0.13.2",
+    "request-promise": "^4.1.1"
   },
   "devDependencies": {
     "eslint": "^3.17.1",

@@ -12,15 +12,15 @@ class CreateCrumbs extends Nodal.Migration {
   up() {
     return [
       this.createTable('crumbs', [
-        { name: 'Trail_Id', type: 'int' },
-        { name: 'Name', type: 'string' },
-        { name: 'Description', type: 'int' },
-        { name: 'Order_Number', type: 'int' },
-        { name: 'Location', type: 'string' },
-        { name: 'Text', type: 'text' },
-        { name: 'Image', type: 'string' },
-        { name: 'Video', type: 'string' },
-        { name: 'AR', type: 'string' },
+        { name: 'trail_Id', type: 'int' },
+        { name: 'name', type: 'string' },
+        { name: 'description', type: 'string' },
+        { name: 'order_Number', type: 'int' },
+        { name: 'location', type: 'string' },
+        { name: 'text', type: 'text' },
+        { name: 'image', type: 'string' },
+        { name: 'video', type: 'string' },
+        { name: 'aR', type: 'string' },
       ]),
     ];
   }
