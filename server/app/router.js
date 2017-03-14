@@ -33,7 +33,6 @@ const IndexController = Nodal.require('app/controllers/index_controller.js');
 const UsersController = Nodal.require('app/controllers/users_controller.js');
 const CrumbtrailsController = Nodal.require('app/controllers/crumbtrails_controller.js');
 const CrumbsController = Nodal.require('app/controllers/crumbs_controller.js');
-const GeofencesController = Nodal.require('app/controllers/geofences_controller.js');
 
 /* generator: end imports */
 
@@ -44,7 +43,6 @@ router.route('/').use(IndexController);
 router.route('/users/{id}').use(UsersController);
 router.route('/crumbtrails/{id}').use(CrumbtrailsController);
 router.route('/crumbs/{id}').use(CrumbsController);
-router.route('/geofences/{id}').use(GeofencesController);
 
 /* generator: end routes */
 
