@@ -12,6 +12,7 @@
     "chai": "~3.5.0",
     "mocha": "~2.4.5",
     "nodal": "0.13.2",
+    "request": "^2.81.0",
     "request-promise": "^4.1.1"
   },
   "devDependencies": {
